@@ -1,4 +1,5 @@
 import { useState } from "react";
+import CustomCursor from "./components/CustomCursor";
 import Envelope from "./components/Envelope";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
@@ -17,6 +18,8 @@ export default function App() {
 
   return (
     <>
+      <CustomCursor />
+
       {!opened && <Envelope onOpen={() => setOpened(true)} />}
 
       {opened && (

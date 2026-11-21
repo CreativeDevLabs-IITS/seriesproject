@@ -95,3 +95,10 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+@media (pointer: fine) {
+  body.custom-cursor-active,
+  body.custom-cursor-active * {
+    cursor: none;
+  }
+}

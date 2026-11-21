@@ -55,7 +55,7 @@ export default function Closing() {
         src={photos.closingPrimary.src}
         alt={photos.closingPrimary.alt}
         loading="lazy"
-        className="absolute inset-0 h-full w-full object-cover object-[center_68%] opacity-70 sm:object-[center_72%]"
+        className="absolute inset-0 h-full w-full object-cover object-[center_18%] opacity-75"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-espresso via-espresso/35 via-40% to-espresso/10" aria-hidden="true" />
       <div className="absolute inset-0 grain" aria-hidden="true" />
