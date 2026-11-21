@@ -40,7 +40,7 @@ export const story = {
 export const ceremony = {
   label: "The Ceremony",
   venue: "Saint Joseph Parish Church, Matalom",
-  address: "Matalom, Leyte, Philippines — [complete address to be confirmed]",
+  address: "Matalom, Leyte, Philippines",
   time: "2:00 PM",
   date: wedding.dateLabelLong,
   mapsUrl: "https://maps.google.com/?q=Saint+Joseph+Parish+Church+Matalom+Leyte",
@@ -81,7 +81,6 @@ export const dressCode = {
         "Semi-formal attire in champagne, beige, taupe, mocha, terracotta, dusty rose, or ivory tones.",
     },
   ],
-  exclusions: "Kindly avoid wearing white or any shade of green.",
 };
 
 export const gift = {

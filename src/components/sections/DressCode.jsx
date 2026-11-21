@@ -67,10 +67,6 @@ export default function DressCode() {
             </div>
           ))}
         </div>
-
-        <p data-reveal className="mt-10 text-center font-body text-sm italic text-terracotta">
-          {dressCode.exclusions}
-        </p>
       </div>
     </section>
   );
