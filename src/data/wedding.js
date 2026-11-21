@@ -49,8 +49,8 @@ export const ceremony = {
 export const reception = {
   label: "The Reception",
   venue: "SJPC Multipurpose Gym",
-  address: "Matalom, Leyte, Philippines — [complete address to be confirmed]",
-  time: "4:00 PM",
+  address: "Matalom, Leyte, Philippines",
+  time: "5:00 PM",
   date: wedding.dateLabelLong,
   mapsUrl: "https://maps.google.com/?q=SJPC+Multipurpose+Gym+Matalom+Leyte",
 };
@@ -88,16 +88,6 @@ export const gift = {
   heading: "Your Presence Is Our Greatest Gift",
   message:
     "Having you celebrate with us is the greatest gift we could ask for. Should you wish to bless us with something more, a monetary gift would be warmly appreciated.",
-  // Placeholders — fill in with real account details before launch.
-  bankTransfer: {
-    bank: "[Bank Name]",
-    accountName: "[Account Holder Name]",
-    accountNumber: "[Account Number]",
-  },
-  digitalWallets: [
-    { provider: "GCash", name: "[Account Holder Name]", number: "[09XX XXX XXXX]" },
-    { provider: "Maya", name: "[Account Holder Name]", number: "[09XX XXX XXXX]" },
-  ],
 };
 
 export const closing = {
@@ -113,15 +103,15 @@ export const music = {
 
 export const photos = {
   heroPrimary: {
-    src: "/assets/photos/couple-sunset-field.webp",
-    alt: "Aaron and Mary Ann holding hands in a golden field at sunset",
+    src: "/assets/photos/couple-golden-hour.webp",
+    alt: "Aaron and Mary Ann standing together in a golden field at sunrise, holding a bouquet",
   },
   storyPrimary: {
     src: "/assets/photos/couple-floral-bench.webp",
     alt: "Aaron standing behind Mary Ann seated on a wooden bench beneath a floral arch",
   },
   closingPrimary: {
-    src: "/assets/photos/couple-sunset-field.webp",
+    src: "/assets/photos/couple-golden-hour.webp",
     alt: "Aaron and Mary Ann together at golden hour",
   },
 };

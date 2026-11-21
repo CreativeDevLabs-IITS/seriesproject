@@ -64,7 +64,7 @@ export default function Hero() {
           ref={imageRef}
           src={photos.heroPrimary.src}
           alt={photos.heroPrimary.alt}
-          className="h-full w-full object-cover object-[center_18%]"
+          className="h-full w-full object-cover object-[68%_22%]"
           fetchPriority="high"
         />
       </div>
